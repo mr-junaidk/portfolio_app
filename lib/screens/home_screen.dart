@@ -9,7 +9,6 @@ import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 
 
 class HomeScreen extends StatefulWidget {
-  static const String id = 'home_screen';
   const HomeScreen({super.key});
 
   @override
@@ -807,7 +806,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               return Column(
                                 children: [
                                   Padding(
-                                    padding: const EdgeInsets.only(bottom: 16, left: 16, top: 16),
+                                    padding: const EdgeInsets.only(bottom: 16, left: 16, top: 16, right: 16),
                                     child: Container(
                                         height: 430,
                                         width: 380,

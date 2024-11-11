@@ -13,12 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: HomeScreen.id,
-      routes: {
-        HomeScreen.id: (context) => const HomeScreen(),
-      },
+      home: HomeScreen(),
     );
   }
 }
